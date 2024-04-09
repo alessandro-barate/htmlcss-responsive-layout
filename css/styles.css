@@ -29,6 +29,7 @@ GENERAL CONTAINERS
 .col {
     width: 100%;
     background-color: red;
+    margin: 0 auto;
 }
 
 
@@ -67,8 +68,26 @@ JUMBOTRON
 }
 
 
+/***********
+ABOUT US
+***********/
 
 
+
+
+
+/***********
+FOOTER
+***********/
+
+footer {
+    background-color: black;
+}
+
+.upper-footer, .lower-footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 
