@@ -19,6 +19,8 @@ GENERAL CONTAINERS
     margin-bottom: 20px;
 }
 
+
+
 .row {
     width: 90%;
     display: flex;
@@ -27,6 +29,7 @@ GENERAL CONTAINERS
 }
 
 .col {
+    width: 100%;
     background-color: red;
 }
 
@@ -60,9 +63,16 @@ JUMBOTRON
 
 .card {
     height: 100px;
-    background-color: red;
-    border: 1px solid black;
+    background-color: rgb(181, 221, 255);
+    border-radius: 20px;
+    text-align: center;
 }
+
+.cards-jumbotron .card:nth-child(even) {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 
 
 
@@ -71,6 +81,7 @@ JUMBOTRON
 UTILITY
 ***********/
 
+
 .flex-direction {
     flex-direction: column;
 }
@@ -78,4 +89,19 @@ UTILITY
 .width-45 {
     width: 45%;
 }
+
+.full-width {
+    width: 100%;
+}
+
+.container:nth-child(even) {
+    background-color: rgb(151, 146, 228);
+}
+
+.content-img {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+
 
