@@ -14,7 +14,10 @@ GENERAL RESET
 GENERAL CONTAINERS
 ***********/
 
-
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 .row {
     width: 90%;
@@ -45,6 +48,22 @@ header {
 ul li {
     display: inline-block;
 }
+
+
+
+/***********
+MAIN
+***********/
+/***********
+JUMBOTRON
+***********/
+
+.card {
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
 
 
 
