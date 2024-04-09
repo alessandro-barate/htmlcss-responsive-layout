@@ -8,20 +8,34 @@ GENERAL RESET
     box-sizing: border-box;
 }
 
-header {
-    background-color: rgb(0, 132, 253);
-    height: 50px;
-}
+
+
+/***********
+GENERAL CONTAINERS
+***********/
+
+
 
 .row {
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 
 .col {
-    width: 45%;
     background-color: red;
-    height: 45px;
+}
+
+
+
+
+/***********
+HEADER
+***********/
+header {
+    background-color: rgb(0, 132, 253);
+    height: 50px;
 }
 
 .content-header-right {
@@ -31,3 +45,18 @@ header {
 ul li {
     display: inline-block;
 }
+
+
+
+/***********
+UTILITY
+***********/
+
+.flex-direction {
+    flex-direction: column;
+}
+
+.width-45 {
+    width: 45%;
+}
+
