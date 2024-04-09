@@ -23,8 +23,6 @@ GENERAL CONTAINERS
 
 .row {
     width: 90%;
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -68,10 +66,7 @@ JUMBOTRON
     text-align: center;
 }
 
-.cards-jumbotron .card:nth-child(even) {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
+
 
 
 
@@ -81,6 +76,13 @@ JUMBOTRON
 UTILITY
 ***********/
 
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
 
 .flex-direction {
     flex-direction: column;
