@@ -19,8 +19,6 @@ GENERAL CONTAINERS
     margin-bottom: 20px;
 }
 
-
-
 .row {
     width: 90%;
     margin: 0 auto;
@@ -34,7 +32,6 @@ GENERAL CONTAINERS
 
 
 
-
 /***********
 HEADER
 ***********/
@@ -43,14 +40,13 @@ header {
     height: 50px;
 }
 
+ul li, #header-button {
+    display: none;
+}
+
 .content-header-right {
-    display: flex;
+    text-align: end;
 }
-
-ul li {
-    display: inline-block;
-}
-
 
 
 /***********
@@ -133,3 +129,22 @@ UTILITY
 }
 
 
+
+
+/**************************************
+RESPONSIVENESS
+**************************************/
+
+@media screen and (min-width: 769px) {
+    .content-header-right {
+        display: flex;
+    }
+    
+    ul li, #header-button {
+        display: inline-block;
+    }
+
+    .bars-icon {
+        display: none;
+    }
+}
