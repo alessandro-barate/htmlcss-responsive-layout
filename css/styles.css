@@ -30,6 +30,10 @@ GENERAL CONTAINERS
     margin: 0 auto;
 }
 
+.col-small {
+    width: 100%;
+}
+
 
 
 /***********
@@ -56,7 +60,7 @@ MAIN
 JUMBOTRON
 ***********/
 
-.card {
+.content-card {
     height: 100px;
     background-color: rgb(181, 221, 255);
     border-radius: 20px;
@@ -135,9 +139,22 @@ UTILITY
 RESPONSIVENESS
 **************************************/
 
+/****************
+DESKTOP LAYOUT
+****************/
 @media screen and (min-width: 769px) {
-    .content-header-right {
+    .col,
+    .content-header-right,
+    .jumbotron .row,
+    .planning .row,
+    .benefits-content,
+    .about .row {
         display: flex;
+    }
+
+    .planning .col {
+        width: 50%;
+        margin: 0 auto;
     }
     
     ul li, #header-button {
@@ -146,5 +163,24 @@ RESPONSIVENESS
 
     .bars-icon {
         display: none;
+    }
+
+    .flex-direction {
+        flex-direction: row;
+    }
+
+    .jumbotron .card,
+    .benefits-content {
+        width: calc(100% / 3);
+    }
+
+    .col {
+        flex-wrap: wrap;
+        gap: 5px;
+        margin: 0 auto;
+    }
+
+    .col-small {
+        width: calc(100% / 3 - 10px);
     }
 }
