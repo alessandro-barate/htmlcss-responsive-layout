@@ -122,21 +122,46 @@ JUMBOTRON SECTION
 PLANNING SECTION
 *******************/
 
+.content-img {
+    padding-top: 50px;
+}
+
+.content-img h2 {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 30px;
+}
+
+.content-img p {
+    color: white;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
 .planning img {
     width: 100%;
 }
 
+.card.bg-white h3 {
+    padding-top: 20px;
+}
+
 .card.bg-white p {
     font-style: italic;
+    padding: 20px;
+    line-height: 25px;
 }
 
 .arrow-down {
     width: 100%;
     text-align: center;
+    padding-bottom: 25px;
 }
 
 .arrow-down button {
-    width: 12%;
+    width: 40px;
+    height: 40px;
     font-size: 20px;
     border: none;
     border-radius: 50%;
@@ -267,6 +292,10 @@ main section:nth-child(even) {
 
 .margin-bottom {
     margin-bottom: 80px;
+}
+
+.padding-bottom-50 {
+    padding-bottom: 50px;
 }
 
 
