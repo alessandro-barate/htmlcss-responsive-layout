@@ -142,15 +142,47 @@ PLANNING SECTION
 TESTIMONIALS SECTION
 *********************/
 
+
+.content-testimonials {
+    padding-top: 30px;
+}
+
+.content-testimonials p {
+    line-height: 26px;
+    font-size: 19px;
+}
+
+.testimonials .card p {
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.content-testimonials h2 {
+    color: rgb(151, 146, 228);
+    font-size: 30px;
+}
+
+.content-testimonials h2,
+.testimonials .card h3 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
 .testimonials .card {
+    color: white;
     background-color: rgb(151, 146, 228);
+    border-radius: 30px;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .testimonial-container img {
     object-fit: cover;
-    width: 70%;
+    width: 200px;
+    height: 250px;
     border-radius: 50%;
-    margin: 0 auto;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -225,6 +257,10 @@ main section:nth-child(even) {
 
 .text-center {
     text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 80px;
 }
 
 
