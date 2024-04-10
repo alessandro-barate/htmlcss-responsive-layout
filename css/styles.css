@@ -466,6 +466,63 @@ RESPONSIVENESS
 /****************
 DESKTOP LAYOUT
 ****************/
+
+/****************
+TABLET LAYOUT
+****************/
+
+@media screen and (min-width: 481px) {
+
+    ul li, #header-button {
+        display: none;
+    }
+    
+    .content-header-right {
+        text-align: end;
+    }
+    
+    .col .bars-icon i {
+        color: white;
+        font-size: 20px;
+    }
+
+    .jumbotron .row {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .jumbotron .col-small {
+        width: calc(100% / 3 - 20px);
+    }
+
+    .jumbotron .special-card {
+        width: calc((100% / 3) * 2 - 20px);
+    }
+
+
+
+    .benefits-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .benefits .col {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .benefits .col-small {
+        width: 49%;
+    }
+
+    
+
+    
+
+
 @media screen and (min-width: 769px) {
 
     .content-header-right li {
@@ -482,8 +539,6 @@ DESKTOP LAYOUT
         border-radius: 20px;
         background-color: white;
         border: none;
-        height: 60%;
-        display: block;
     }
 
     .col,
