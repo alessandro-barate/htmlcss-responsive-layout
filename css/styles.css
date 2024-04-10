@@ -283,21 +283,23 @@ ABOUT US SECTION
     font-size: 18px;
 }
 
+.special-img {
+    padding-top: 50px;
+}
+
 .quote img {
     object-fit: cover;
     width: 200px;
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 #quotations {
     font-size: 100px;
     color: rgb(151, 146, 228);
     position: absolute;
-    bottom: 320px;
-    left: 140px;
+    bottom: 270px;
+    left: 145px;
 }
 
 .quote button {
@@ -520,7 +522,27 @@ TABLET LAYOUT
         width: 49%;
     }
 
-    
+    .about .row {
+        display: flex;
+        gap: 40px;
+    }
+
+    .about div:nth-child(3) {
+        padding-bottom: 80px;
+    }
+
+    .about div p {
+        line-height: 30px;
+    }
+
+    .quote img {
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .special-img {
+        padding-top: 0;
+    }
 
     
 
