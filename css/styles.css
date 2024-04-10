@@ -33,6 +33,9 @@ GENERAL CONTAINERS
     width: 100%;
 }
 
+h2 {
+    font-size: 30px;
+}
 
 
 /*********
@@ -130,7 +133,6 @@ PLANNING SECTION
     padding-top: 60px;
     padding-bottom: 40px;
     color: white;
-    font-size: 30px;
 }
 
 .content-img p {
@@ -143,12 +145,11 @@ PLANNING SECTION
     width: 100%;
 }
 
-.card.bg-white h3 {
+.white-card.bg-white h3 {
     padding-top: 20px;
 }
 
-.card.bg-white p {
-    font-style: italic;
+.white-card.bg-white p {
     padding: 20px;
     line-height: 25px;
 }
@@ -192,7 +193,6 @@ TESTIMONIALS SECTION
 
 .content-testimonials h2 {
     color: rgb(151, 146, 228);
-    font-size: 30px;
 }
 
 .content-testimonials h2,
@@ -218,6 +218,54 @@ TESTIMONIALS SECTION
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+
+/*******************
+BENEFITS SECTION
+*******************/
+
+.benefits-title {
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.benefits .card.bg-white {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card.bg-white {
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.number, .card.bg-white h3 {
+    color: rgb(151, 146, 228);
+}
+
+.number {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card.bg-white button {
+    width: 50%;
+    color: white;
+    background-color: rgb(151, 146, 228);
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+
+
+
+
 
 /*******************
 ABOUT US SECTION
@@ -298,7 +346,18 @@ main section:nth-child(even) {
     padding-bottom: 50px;
 }
 
+.padding-tb {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
 
+.italic {
+    font-style: italic;
+}
+
+.line-height-25 {
+    line-height: 25px;
+}
 
 
 /**************************************
