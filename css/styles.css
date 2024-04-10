@@ -263,17 +263,44 @@ BENEFITS SECTION
 }
 
 
-
-
-
-
 /*******************
 ABOUT US SECTION
 *******************/
 
+.about h2 {
+    font-size: 40px;
+    color: rgb(151, 146, 228);
+    padding-bottom: 30px;
+}
 
+.about h3 {
+    font-size: 26px;
+    color: rgb(151, 146, 228);
+    padding-bottom: 20px;
+}
 
+.about .col div:nth-child(2) {
+    padding-bottom: 35px;
+}
 
+.about .col p {
+    font-size: 18px;
+}
+
+.quote button {
+    width: 50%;
+    color: white;
+    background-color: rgb(151, 146, 228);
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.quote button i {
+    padding-right: 5px;
+}
 
 /************************
 CALL TO ACTION SECTION
