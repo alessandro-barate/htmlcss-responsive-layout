@@ -70,7 +70,7 @@ JUMBOTRON SECTION
     background-color: rgb(181, 221, 255);
     border-radius: 20px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
@@ -81,11 +81,15 @@ JUMBOTRON SECTION
 }
 
 .jumbotron h3 {
-    color: rgb(0, 132, 253);;
+    color: rgb(0, 132, 253);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 23px;
 }
 
 .jumbotron p {
     color: rgb(90, 110, 127);
+    line-height: 25px;
 }
 
 .content-card button {
@@ -96,6 +100,7 @@ JUMBOTRON SECTION
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 20px;
+    margin-bottom: 25px;
 }
 
 .content-card button i {
@@ -109,6 +114,9 @@ JUMBOTRON SECTION
     color: rgb(0, 132, 253);
 }
 
+.content-card p {
+    padding-bottom: 30px;
+}
 
 /*******************
 PLANNING SECTION
@@ -141,7 +149,6 @@ PLANNING SECTION
 /*********************
 TESTIMONIALS SECTION
 *********************/
-
 
 .content-testimonials {
     padding-top: 30px;
@@ -186,7 +193,6 @@ TESTIMONIALS SECTION
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 
 /*******************
 ABOUT US SECTION
