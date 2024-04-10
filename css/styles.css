@@ -501,7 +501,9 @@ TABLET LAYOUT
         width: calc((100% / 3) * 2 - 20px);
     }
 
-
+    .testimonials .card {
+        display: flex;
+    }
 
     .benefits-title {
         width: 100%;
