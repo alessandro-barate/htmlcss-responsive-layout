@@ -287,6 +287,23 @@ ABOUT US SECTION
     font-size: 18px;
 }
 
+.quote img {
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#quotations {
+    font-size: 100px;
+    color: rgb(151, 146, 228);
+    position: absolute;
+    bottom: 280px;
+    left: 140px;
+}
+
 .quote button {
     width: 50%;
     color: white;
@@ -384,6 +401,10 @@ main section:nth-child(even) {
 
 .line-height-25 {
     line-height: 25px;
+}
+
+.relative {
+    position: relative;
 }
 
 
