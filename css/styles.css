@@ -51,10 +51,6 @@ ul li, #header-button {
     text-align: end;
 }
 
-.img-header img {
-    padding-top: 6px;
-}
-
 .col .bars-icon {
     padding-top: 15px;
 }
@@ -121,13 +117,16 @@ UTILITY
     justify-content: space-between;
 }
 
+.align-center {
+    align-items: center;
+}
+
 .flex-direction {
     flex-direction: column;
 }
 
 .width-50 {
-    width: 50%;
-    
+    width: 50%;  
 }
 
 .full-width {
@@ -154,6 +153,24 @@ RESPONSIVENESS
 DESKTOP LAYOUT
 ****************/
 @media screen and (min-width: 769px) {
+
+    .content-header-right li {
+        padding-right: 20px;
+        line-height: 50px;
+    }
+    
+    .content-header-right a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #header-button {
+        width: 20%;
+        border-radius: 20px;
+        background-color: white;
+        border: none;
+    }
+
     .col,
     .content-header-right,
     .jumbotron .row,
